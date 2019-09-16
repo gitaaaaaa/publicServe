@@ -1,0 +1,37 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logoText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  // display: block;
+  margin-left: 10px;
+  overflow: hidden;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  white-space: nowrap;
+  text-align: ellipsis;
+  text-decoration: none;
+
+  &:hover,
+  &:visited,
+  &:link {
+    color: #fff;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+  img {
+    height: 32px;
+    margin-right:10px;
+  }
+}

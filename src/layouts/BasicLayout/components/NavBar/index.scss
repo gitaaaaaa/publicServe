@@ -1,0 +1,27 @@
+.header-navbar-menu {
+  margin-bottom: 20px;
+  &.next-menu {
+    border: 0;
+  }
+  &.next-nav.next-hoz {
+    height: 42px;
+  }
+  // display: flex;
+  // height: 60px;
+  // line-height: 62px;
+  // background: #fff;
+  // border: 0;
+  // box-shadow: none;
+
+  // > .ice-menu-item {
+  //   height: 58px;
+  //   color: #666;
+  //   font-weight: bold;
+  //   font-size: 14px;
+  //   line-height: 58px;
+  // }
+
+  // .ice-menu-item-selected {
+  //   border-bottom: 2px solid #447eff;
+  // }
+}
