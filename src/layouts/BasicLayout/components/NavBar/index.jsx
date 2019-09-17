@@ -2,12 +2,11 @@ import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { Nav } from '@alifd/next';
 
-import headerMenuConfig from '@/config/menu.js';
+import asideMenuConfig from '@/config/menu.js';
 import './index.scss';
 
 const NavItem = Nav.Item;
 const SubNav = Nav.SubNav;
-
 const NavBar = withRouter((props) => {
   const { location = {} } = props;
   const { pathname } = location;
@@ -19,9 +18,9 @@ const NavBar = withRouter((props) => {
       defaultSelectedKeys={[pathname]}
       direction="hoz"
     >
-      {headerMenuConfig
-        && headerMenuConfig.length > 0
-        && headerMenuConfig.map((nav, index) => {
+      {asideMenuConfig
+        && asideMenuConfig.length > 0
+        && asideMenuConfig.map((nav, index) => {
           if (nav.children && nav.children.length > 0) {
             return (
               <SubNav

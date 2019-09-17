@@ -14,4 +14,7 @@ module.exports = {
       locales: ['zh-cn'],
     }],
   ],
+  externals: {
+    'BMap':'BMap'
+  }
 };

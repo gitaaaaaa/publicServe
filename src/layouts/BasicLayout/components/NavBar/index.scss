@@ -1,5 +1,6 @@
 .header-navbar-menu {
-  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0,21,41,.08);
+  z-index: 666;
   &.next-menu {
     border: 0;
   }

@@ -1,0 +1,45 @@
+$ice-header-text-color: #fff !default;
+$ice-header-icon-down-color: #fff !default;
+
+/* HEADER */
+.iceDesignLayoutHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  box-shadow: none;
+  background: #447eff;
+  .headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+      
+    
+  }
+
+      
+    
+}
+
+:global {
+  .popupHeaderMenu {
+    &.next-balloon-medium {
+      padding: 0; 
+    }
+    &.next-balloon-normal {
+      border:0;
+    }
+    .next-menu {
+      border: 0;
+    }
+  }
+  .btnHeaderMenuItem {
+    &.next-btn.next-medium {
+      color: #fff;
+      background-color: transparent;
+    }
+  }
+}
